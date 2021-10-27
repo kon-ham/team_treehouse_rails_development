@@ -27,3 +27,11 @@
 
     grocery_item_1["name"] = "milk"
     ```
+
+- Using the has_key? method, check if the hash variable has a key called "calories". If it does, set a new variable called food to true.
+
+    ```
+    hash = { "name" => "Bread", "quantity" => 1, "calories" => 100 }
+
+    food = hash.has_key?("calories")
+    ```
