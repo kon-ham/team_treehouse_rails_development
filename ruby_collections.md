@@ -20,3 +20,10 @@
 
     `grocery_item_1 = Hash.new`
 
+- Create a key in the grocery_item_1 hash called "name" and set the value of that key to the string "milk".
+
+    ```
+    grocery_item_1 = Hash.new
+
+    grocery_item_1["name"] = "milk"
+    ```
