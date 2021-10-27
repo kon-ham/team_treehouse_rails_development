@@ -41,5 +41,7 @@
     ```
     grocery_item = { "item" => "Bread", "quantity" => 1, "brand" => "Treehouse Bread Company" }
 
-    food = grocery_item.has_value?("Bread")
+    grocery_item["food"] = true if grocery_item.has_value?("Bread")
     ```
+
+
