@@ -15,3 +15,8 @@
 
     first_item = grocery_list.shift
     ```
+
+- Create a variable called grocery_item_1 which is a new hash.
+
+    `grocery_item_1 = Hash.new`
+
