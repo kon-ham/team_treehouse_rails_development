@@ -44,4 +44,14 @@
     grocery_item["food"] = true if grocery_item.has_value?("Bread")
     ```
 
+- Use the values_at method on the grocery_item hash to get an array consisting of a single value: the value of the "item" key. Store the returned array in a variable named grocery_list.
+
+    ```
+    grocery_item = { "item" => "Bread", "quantity" => 1, "brand" => "Treehouse Bread Company" }
+
+    grocery_item["food"] = true if grocery_item.has_value?("Bread")
+
+    grocery_list = grocery_item.values_at("item")
+    ```
+
 
