@@ -71,4 +71,10 @@
     end
     ```
 
+- Create a method called add_list_items that returns an array. It does not need to read from standard input.
 
+    ```
+    def add_list_items
+        Array.new
+    end
+    ```
