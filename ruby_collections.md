@@ -89,3 +89,14 @@
         list_by_hash = { 'title' => 'Grocery List', 'items' => [] }
     end
     ```
+
+- Let's add an item to our grocery list. We've set up a grocery_list hash that has an 'items' key with an empty array as its value. We've also created another hash and stored it in the grocery_item variable.
+
+    Append the grocery_item hash to the empty array that's under the grocery_list hash's 'items' key.
+
+    ```
+    grocery_list = { 'title' => 'Grocery List', 'items' => [] }
+    grocery_item = { 'title' => 'Bread', 'quantity' => 1 }
+
+    grocery_list['items'] << grocery_item
+    ```
