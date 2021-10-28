@@ -62,3 +62,13 @@
 
     final_item = grocery_item.merge(calories)
     ```
+
+- Create a method named "create_shopping_list" that returns a hash. It does not need to ask for a name or get anything from standard input.
+
+    ```
+    def create_shopping_list
+        Hash.new
+    end
+    ```
+
+
