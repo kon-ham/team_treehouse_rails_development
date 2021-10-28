@@ -127,3 +127,13 @@
         break if answer == "e"
     end
     ```
+
+- Using a while loop, increment the value of the variable i as long as it remains less than 5.
+
+    ```
+    i = 0
+
+    while i < 5 do
+        i += 1
+    end
+    ```
