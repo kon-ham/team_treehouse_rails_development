@@ -179,3 +179,13 @@
         puts "lmao"
     end
     ```
+
+- Use a for loop to print each item in the animals array to the screen using the puts method.
+
+    ```
+    animals = ["dog", "cat", "horse", "goat"]
+
+    for animal in animals
+        puts animal
+    end
+    ```
