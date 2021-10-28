@@ -78,3 +78,14 @@
         Array.new
     end
     ```
+
+- Modify the "create_shopping_list" method to return a hash with the following keys and values:
+
+    'title': A string with the value "Grocery List"
+    'items': An empty array
+
+    ```
+    def create_shopping_list
+        list_by_hash = { 'title' => 'Grocery List', 'items' => [] }
+    end
+    ```
