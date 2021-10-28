@@ -171,3 +171,11 @@
         puts value
     end
     ```
+
+- Print anything to standard output using the puts method 5 times by calling the times method on the number 5.
+
+    ```
+    5.times do
+        puts "lmao"
+    end
+    ```
