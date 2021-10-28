@@ -54,4 +54,11 @@
     grocery_list = grocery_item.values_at("item")
     ```
 
+- Using the merge method, create a hash named final_item that contains the grocery_item hash merged with the calories hash.
 
+    ```
+    grocery_item = { "item" => "Bread", "quantity" => 1, "brand" => "Treehouse Bread Company" }
+    calories = { "calories" => 100 }
+
+    final_item = grocery_item.merge(calories)
+    ```
